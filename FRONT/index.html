@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/quartz/bootstrap.min.css"
+    />
+    <title>Exam WS REST</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">Welcome</nav>
+    <!-- FORMULAIRE AJOUT RESTO -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-6">
+        
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control mb-2"
+              placeholder="Nom du resto"
+            />
+            <input
+              type="text"
+              name="adress"
+              id="adress"
+              class="form-control mb-2"
+              placeholder="Adress du resto"
+            />
+            <input
+              type="text"
+              name="city"
+              id="city"
+              class="form-control mb-2"
+              placeholder="Ville"
+            />
+
+            <button class="btn btn-primary" id="add">Add</button>
+
+        </div>
+
+        <!-- AFFICHAGE RESTO -->
+        <div class="col-6">
+          <div class="content"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>

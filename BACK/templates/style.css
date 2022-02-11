@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: auto;
+  height: 150px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  font-family: "Monoton", cursive;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: "Monoton", cursive;
+}
+
+.comment {
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ea39b879;
+}
+
+input:focus {
+  border-color: #ea39b879;
+}
